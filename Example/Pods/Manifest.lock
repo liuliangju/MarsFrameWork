@@ -1,0 +1,16 @@
+PODS:
+  - MarsFrameWork (0.1.0)
+
+DEPENDENCIES:
+  - MarsFrameWork (from `../`)
+
+EXTERNAL SOURCES:
+  MarsFrameWork:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MarsFrameWork: 086f836c3ceee94fbe94d31810578b1f9493d07d
+
+PODFILE CHECKSUM: 8a6e1e0dc8f3dc33b02092433fb08186e7319020
+
+COCOAPODS: 1.8.4

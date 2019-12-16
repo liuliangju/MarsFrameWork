@@ -1,0 +1,6 @@
+framework module Pods_MarsFrameWork_Example {
+  umbrella header "Pods-MarsFrameWork_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

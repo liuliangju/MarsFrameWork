@@ -1,0 +1,6 @@
+framework module MarsFrameWork {
+  umbrella header "MarsFrameWork-umbrella.h"
+
+  export *
+  module * { export * }
+}

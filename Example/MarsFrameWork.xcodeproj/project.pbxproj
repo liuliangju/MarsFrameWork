@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		04BB0BD24C8405240EAB5CFC /* Pods-MarsFrameWork_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarsFrameWork_Example.release.xcconfig"; path = "Target Support Files/Pods-MarsFrameWork_Example/Pods-MarsFrameWork_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3D519641EC0ED3C1AE279D36 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3D519641EC0ED3C1AE279D36 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* MarsFrameWork_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarsFrameWork_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,9 +63,9 @@
 		6E36815E3CA1DABF80D7CF18 /* Pods_MarsFrameWork_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarsFrameWork_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A55B8BC8ED3390485FF45184 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A55B8BC8ED3390485FF45184 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B5AD1CB7A509EE4621B6657E /* Pods-MarsFrameWork_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarsFrameWork_Example.debug.xcconfig"; path = "Target Support Files/Pods-MarsFrameWork_Example/Pods-MarsFrameWork_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		CF0BAF575F4C1B727641B531 /* MarsFrameWork.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MarsFrameWork.podspec; path = ../MarsFrameWork.podspec; sourceTree = "<group>"; };
+		CF0BAF575F4C1B727641B531 /* MarsFrameWork.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MarsFrameWork.podspec; path = ../MarsFrameWork.podspec; sourceTree = "<group>"; };
 		E9E23B715C2C651EDC85848F /* Pods_MarsFrameWork_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarsFrameWork_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -103,7 +103,6 @@
 				6A3A1043A8924DA58B8C19CD /* Pods-MarsFrameWork_Tests.debug.xcconfig */,
 				68E037151B281253712E8D12 /* Pods-MarsFrameWork_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -497,6 +497,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MarsFrameWork/MarsFrameWork-Prefix.pch";
 				INFOPLIST_FILE = "MarsFrameWork/MarsFrameWork-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -513,6 +514,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MarsFrameWork/MarsFrameWork-Prefix.pch";
 				INFOPLIST_FILE = "MarsFrameWork/MarsFrameWork-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
