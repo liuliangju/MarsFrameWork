@@ -18,5 +18,14 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "MarsFrameWork/Classes/**/*"
+  "vendored_frameworks": "MarsFrameWork/Classes/mars.framework",
+  "frameworks": [
+    "SystemConfiguration",
+    "CoreTelephony",
+    "Foundation"
+  ],
+  "libraries": [
+    "z",
+    "resolv.9"
+  ]
 }

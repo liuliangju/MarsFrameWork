@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MarsFrameWork'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'A short description of MarsFrameWork.'
 
 # This description is used to generate tags and improve search results.
@@ -30,13 +30,9 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'MarsFrameWork/Classes/**/*'
+  s.vendored_frameworks = 'MarsFrameWork/Classes/mars.framework'
   
-  # s.resource_bundles = {
-  #   'MarsFrameWork' => ['MarsFrameWork/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = "SystemConfiguration", "CoreTelephony", "Foundation"
+  s.libraries = "z", "resolv.9"
+  
 end
